@@ -105,7 +105,7 @@ public class DeleteCarBySerialNumberTests {public static final MediaType JSON = 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        //Assert.assertTrue(response.isSuccessful());
+        Assert.assertTrue(response.isSuccessful()); //!!!
     }
 
 }
