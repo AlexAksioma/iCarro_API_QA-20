@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee5054e-99c3-4a8e-ae66-9f2bf01e6153" name="Changes" comment="create project+okhttp">
+    <list default="true" id="aee5054e-99c3-4a8e-ae66-9f2bf01e6153" name="Changes" comment="create project+okhttp1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/QA_Auto_Projects/QA_20/iCarro_API_QA-20"
+    "last_opened_file_path": "C:/QA_Auto_Projects/MyProject/myILcarro_API"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.DeleteCarBySerialNumberTests.deleteCarBySerialNumberPositiveTest">
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700580365309</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create project+okhttp1">
+      <option name="closed" value="true" />
+      <created>1700580784605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700580784605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project+okhttp" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project+okhttp" />
+    <MESSAGE value="create project+okhttp1" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project+okhttp1" />
   </component>
 </project>
