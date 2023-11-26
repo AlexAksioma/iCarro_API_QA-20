@@ -1,15 +1,15 @@
 package dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter
 @Setter
 @Builder
 @ToString
-public class bookedPeriods {
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class BookedPeriods {
     private String email;    //": "string",
     private String startDate; //: "2023-11-19",
     private String endDate;   //: "2023-11-19"

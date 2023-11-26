@@ -1,9 +1,6 @@
 package dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.List;
 
@@ -11,6 +8,8 @@ import java.util.List;
 @Setter
 @Builder
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class CarDto {
 
     private String serialNumber; //": "string",
@@ -27,5 +26,5 @@ public class CarDto {
     private double lng; //": 0,
     private String image; //": "string",
     private String owner; //": "string",
-    private List<bookedPeriods> bookedPeriods;
+    private List<BookedPeriods> bookedPeriods;
 }

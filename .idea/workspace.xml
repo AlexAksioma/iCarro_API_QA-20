@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee5054e-99c3-4a8e-ae66-9f2bf01e6153" name="Changes" comment="create project+okhttp1">
+    <list default="true" id="aee5054e-99c3-4a8e-ae66-9f2bf01e6153" name="Changes" comment="added rest">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CarsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest/BookingCarTestsRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest/DeleteCarByIdTestsRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest/GetAllUserCarsRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/BaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/CarDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/CarDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/bookedPeriods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/BookedPeriods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +79,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/QA_Auto_Projects/MyProject/myILcarro_API"
+    "last_opened_file_path": "C:/QA_Auto_Projects/QA_20/iCarro_API_QA-20"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.DeleteCarBySerialNumberTests.deleteCarBySerialNumberPositiveTest">
-    <configuration name="AddNewCarTests.addNewCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BookingCarTestsRest.bookingCarPositiveTest">
+    <configuration name="BookingCarTestsRest.bookingCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddNewCarTests.addNewCarPositiveTest&quot;" />
+            <option value="&quot;rest.BookingCarTestsRest.bookingCarPositiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +109,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteCarBySerialNumberTests.deleteCarBySerialNumberPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCarByIdTestsRest.deleteCarByIdNegativeTest_wrongSerialNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteCarBySerialNumberTests.deleteCarBySerialNumberPositiveTest&quot;" />
+            <option value="&quot;rest.DeleteCarByIdTestsRest.deleteCarByIdNegativeTest_wrongSerialNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +133,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp.registrationNegativeTest_emailWO_dog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCarByIdTestsRest.deleteCarByIdPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp.registrationNegativeTest_emailWO_dog&quot;" />
+            <option value="&quot;rest.DeleteCarByIdTestsRest.deleteCarByIdPositiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +157,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp.registrationPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCarByIdTestsRest.validateMessageDeleteCarByIdNegativeTest_wrongSerialNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +170,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp.registrationPositiveTest&quot;" />
+            <option value="&quot;rest.DeleteCarByIdTestsRest.validateMessageDeleteCarByIdNegativeTest_wrongSerialNumber&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetAllUserCarsRest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest.GetAllUserCarsRest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeleteCarBySerialNumberTests.deleteCarBySerialNumberPositiveTest" />
-        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositiveTest" />
-        <item itemvalue="Gradle.RegistrationTestsOkhttp.registrationPositiveTest" />
-        <item itemvalue="Gradle.RegistrationTestsOkhttp.registrationNegativeTest_emailWO_dog" />
+        <item itemvalue="Gradle.BookingCarTestsRest.bookingCarPositiveTest" />
+        <item itemvalue="Gradle.DeleteCarByIdTestsRest.validateMessageDeleteCarByIdNegativeTest_wrongSerialNumber" />
+        <item itemvalue="Gradle.DeleteCarByIdTestsRest.deleteCarByIdNegativeTest_wrongSerialNumber" />
+        <item itemvalue="Gradle.DeleteCarByIdTestsRest.deleteCarByIdPositiveTest" />
+        <item itemvalue="Gradle.GetAllUserCarsRest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700580784605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added rest">
+      <option name="closed" value="true" />
+      <created>1700676309415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700676309415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +281,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project+okhttp" />
     <MESSAGE value="create project+okhttp1" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project+okhttp1" />
+    <MESSAGE value="added rest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rest" />
   </component>
 </project>
